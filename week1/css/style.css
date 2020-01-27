@@ -2,14 +2,14 @@ body {
     background-color: lightpink;
 }
 h1 {
-        color: navy;
+        color: black;
 }
 h2 {
-        color: #3b0606
+        color: darkred;
 }
 p {
-        color: rgb(2, 58, 2);
+        color: navy;
 }
 li {
-        color: #000000;
+        color: navy;
 }
