@@ -1,15 +1,22 @@
 body {
     background-color: lightpink;
+    font-family: arial, verdana, "times new roman";
 }
+/* The light pink contrasts well with the dark fonts*/
 h1 {
         color: black;
+        font-family: verdana, arial, "times new roman";
 }
+/* I selected an easy to read grouping of fonts. */
 h2 {
         color: darkred;
+        font-family: verdana, arial, "times new roman";
 }
 p {
         color: navy;
+        font-family: "times new roman," verdana, arial;
 }
 li {
         color: navy;
+        font-family: "times new roman," verdana, arial;
 }
