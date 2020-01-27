@@ -11,6 +11,10 @@ h1 {
 h2 {
         color: darkred;
         font-family: verdana, arial, "times new roman";
+ /* I selected a playful font for the goodbye message.*/
+h3 {
+        color: darkred;
+        font-family: cursive, arial, "times new roman";
 }
 p {
         color: navy;
