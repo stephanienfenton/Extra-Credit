@@ -1,13 +1,13 @@
 body {
     background-color: lightpink;
-    font-family: arial, verdana, "times new roman";
+    font-family: dosis, arial, verdana, "times new roman";
     font-size: 18px;
 }
 /* The light pink contrasts well with the dark fonts*/
 header { 
         background:lightpink; 
         color: darkred;
-        font-family: arial, verdana, "times new roman";
+        font-family: "dancing script", anton, arial, verdana, "times new roman";
         font-size: 15px;
     }
     div {
@@ -17,12 +17,14 @@ header {
         border: 100px darkred;
         padding: 15px;
         margin: 15px; 
+        font-family: mukta;
     }
     #personal {
         float:right;
         width:630px;
         padding:45px;
         font-size: 21px;
+        font-family: "indie flower";
         background-color:rgb(163, 161, 161) 
     }
 .interests {
@@ -30,6 +32,7 @@ header {
     width: 700px;
     border: 100px rgb(70, 7, 70);
     padding: 20px;
+    font-family: acme
     background: rgb(225, 216, 245);
 }
 img {
@@ -41,14 +44,13 @@ img {
     #gradient {
         height: 350px; width: 100px; float:right;
     background-color: lightpink; /* For browsers that do not support gradients */
-    background-image: linear-gradient(to bottom right, rgb(109, 7, 109), rgb(119, 119, 113)); 
+    background-image: linear-gradient(to bottom right, rgb(45, 175, 158), rgb(119, 119, 113)); 
   }
-    }
   #dog {  
         display: box;
         float:left;
         background-color: rgb(78, 17, 78);
-        width: 70px;
+        width: 340;
         border: 0px; 
         padding: 0px;
         margin: 0px;
@@ -72,12 +74,12 @@ img {
 
 h1 {
         color: black;
-        font-family: verdana, arial, "times new roman";
+        font-family: "bree serif," verdana, arial, "times new roman";
 }
 /* I selected an easy to read grouping of fonts. */
 h2 {
         color: darkred;
-        font-family: verdana, arial, "times new roman";
+        font-family: "permanent marker," verdana, arial, "times new roman";
  /* I selected a playful font for the goodbye message.*/
 h3 {
         color: darkred;
@@ -85,10 +87,10 @@ h3 {
 }
 p {
         color: navy;
-        font-family: "times new roman," verdana, arial;
+        font-family: "old standard TT,""times new roman," verdana, arial;
 }
 li {
         color: navy;
-        font-family: "times new roman," verdana, arial;
+        font-family: "bad script," "times new roman," verdana, arial;
 }
 

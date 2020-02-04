@@ -1,97 +1,96 @@
 body {
-        background-color: lightpink;
-        font-family: arial, verdana, "times new roman";
-        font-size: 18px;
+    background-color: lightpink;
+    font-family: dosis, arial, verdana, "times new roman";
+    font-size: 18px;
+}
+/* The light pink contrasts well with the dark fonts*/
+header { 
+        background:lightpink; 
+        color: darkred;
+        font-family: "dancing script", anton, arial, verdana, "times new roman";
+        font-size: 15px;
     }
-    /* The light pink contrasts well with the dark fonts*/
-    header { 
-            background:lightpink; 
-            color: darkred;
-            font-family: arial, verdana, "times new roman";
-            font-size: 15px;
-        }
-        div {
-            float:left;
-            background-color: rgb(89, 243, 210);
-            width: 500px;
-            border: 100px darkred;
-            padding: 15px;
-            margin: 15px; 
-        }
-        #personal {
-            float:right;
-            width:630px;
-            padding:45px;
-            font-size: 21px;
-            background-color:rgb(163, 161, 161) 
-        }
-    .interests {
-        text-align: center;
-        width: 700px;
-        border: 100px rgb(70, 7, 70);
-        padding: 20px;
-        background: rgb(225, 216, 245);
+    div {
+        float:left;
+        background-color: rgb(89, 243, 210);
+        width: 500px;
+        border: 100px darkred;
+        padding: 15px;
+        margin: 15px; 
+        font-family: mukta;
     }
-    img {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-          }
-    
-        #gradient {
-            height: 350px; width: 100px; float:right;
-        background-color: lightpink; /* For browsers that do not support gradients */
-        background-image: linear-gradient(to bottom right, rgb(109, 7, 109), rgb(119, 119, 113)); 
+    #personal {
+        float:right;
+        width:630px;
+        padding:45px;
+        font-size: 21px;
+        font-family: "indie flower";
+        background-color:rgb(163, 161, 161) 
+    }
+.interests {
+    text-align: center;
+    width: 700px;
+    border: 100px rgb(70, 7, 70);
+    padding: 20px;
+    font-family: acme
+    background: rgb(225, 216, 245);
+}
+img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
       }
-        }
-      #dog {  
-            display: box;
-            float:left;
-            background-color: rgb(78, 17, 78);
-            width: 70px;
-            border: 0px; 
-            padding: 0px;
-            margin: 0px;
-      }
-    #homeworks {
-        background-color: rgb(225, 243, 145);
-        width: 120px; 
+
+    #gradient {
+        height: 350px; width: 100px; float:right;
+    background-color: lightpink; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom right, rgb(45, 175, 158), rgb(119, 119, 113)); 
+  }
+  #dog {  
+        display: box;
+        float:left;
+        background-color: rgb(78, 17, 78);
+        width: 340;
+        border: 0px; 
         padding: 0px;
         margin: 0px;
-        float:right;
+  }
+#homeworks {
+    background-color: rgb(225, 243, 145);
+    width: 120px; 
+    padding: 0px;
+    margin: 0px;
+    float:right;
+}
+      .assignments {
+        background-color: rgb(225, 243, 145);
+        width: 1120px;
+        border: 5px; 
+        padding: 5px;
+        margin: 5px;
+        font-size: 12px;  
+        float:left;
     }
-          .assignments {
-            background-color: rgb(225, 243, 145);
-            width: 1120px;
-            border: 5px; 
-            padding: 5px;
-            margin: 5px;
-            font-size: 12px;  
-            float:left;
-        }
-    
-    h1 {
-            color: black;
-            font-family: verdana, arial, "times new roman";
-    }
-    /* I selected an easy to read grouping of fonts. */
-    h2 {
-            color: darkred;
-            font-family: verdana, arial, "times new roman";
-     /* I selected a playful font for the goodbye message.*/
-    h3 {
-            color: darkred;
-            font-family: cursive, arial, "times new roman";
-    }
-    p {
-            color: navy;
-            font-family: "times new roman," verdana, arial;
-    }
-    li {
-            color: navy;
-            font-family: "times new roman," verdana, arial;
-    }
-    
-    
-    
-    
+
+h1 {
+        color: black;
+        font-family: "bree serif," verdana, arial, "times new roman";
+}
+/* I selected an easy to read grouping of fonts. */
+h2 {
+        color: darkred;
+        font-family: "permanent marker," verdana, arial, "times new roman";
+ /* I selected a playful font for the goodbye message.*/
+h3 {
+        color: darkred;
+        font-family: cursive, arial, "times new roman";
+}
+p {
+        color: navy;
+        font-family: "old standard TT,""times new roman," verdana, arial;
+}
+li {
+        color: navy;
+        font-family: "bad script," "times new roman," verdana, arial;
+}
+
