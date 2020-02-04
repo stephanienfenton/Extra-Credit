@@ -37,14 +37,39 @@ body {
             margin-left: auto;
             margin-right: auto;
           }
+    
+        #gradient {
+            height: 350px; width: 100px; float:right;
+        background-color: lightpink; /* For browsers that do not support gradients */
+        background-image: linear-gradient(to bottom right, rgb(109, 7, 109), rgb(119, 119, 113)); 
+      }
+        }
+      #dog {  
+            display: box;
+            float:left;
+            background-color: rgb(78, 17, 78);
+            width: 70px;
+            border: 0px; 
+            padding: 0px;
+            margin: 0px;
+      }
+    #homeworks {
+        background-color: rgb(225, 243, 145);
+        width: 120px; 
+        padding: 0px;
+        margin: 0px;
+        float:right;
+    }
           .assignments {
             background-color: rgb(225, 243, 145);
-            width: 1500px;
-            border: 12px; 
-            padding: 15px;
-            margin: 10px;
-            font-size: 14px;  
+            width: 1120px;
+            border: 5px; 
+            padding: 5px;
+            margin: 5px;
+            font-size: 12px;  
+            float:left;
         }
+    
     h1 {
             color: black;
             font-family: verdana, arial, "times new roman";
@@ -66,3 +91,7 @@ body {
             color: navy;
             font-family: "times new roman," verdana, arial;
     }
+    
+    
+    
+    
