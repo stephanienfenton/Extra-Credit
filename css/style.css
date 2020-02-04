@@ -3,6 +3,19 @@ body {
     font-family: arial, verdana, "times new roman";
 }
 /* The light pink contrasts well with the dark fonts*/
+
+    div {
+        background-color: rgb(89, 243, 210);
+        width: 620px;
+        border: 400px darkred;
+        padding: 25px;
+        margin: 10px; 
+    }
+img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
 h1 {
         color: black;
         font-family: verdana, arial, "times new roman";
