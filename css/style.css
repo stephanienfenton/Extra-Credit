@@ -1,13 +1,13 @@
 body {
     background-color: lightpink;
-    font-family: dosis, arial, verdana, "times new roman";
+    font-family: "bad script," dosis, arial, verdana, "times new roman";
     font-size: 18px;
 }
 /* The light pink contrasts well with the dark fonts*/
 header { 
         background:lightpink; 
         color: darkred;
-        font-family: "dancing script", anton, arial, verdana, "times new roman";
+        font-family: "bad script," "dancing script", anton, arial, verdana, "times new roman";
         font-size: 25px;
     }
 .newspaper{
@@ -16,8 +16,9 @@ header {
 
     #first {
         background-color: lightpink;
-        font-size: 26px;
-        font-family: "indie flower";
+        font-size: 22px;
+        font-family: 'bad+script', cursive;
+        display: block;
     }
     #background {
         float:left;
