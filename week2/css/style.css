@@ -8,24 +8,37 @@ header {
         background:lightpink; 
         color: darkred;
         font-family: "dancing script", anton, arial, verdana, "times new roman";
-        font-size: 15px;
+        font-size: 25px;
     }
-    div {
+.newspaper{
+ column-count: 3;
+}
+
+    #first {
+        background-color: lightpink;
+        font-size: 26px;
+        font-family: "indie flower";
+    }
+    #background {
         float:left;
         background-color: rgb(89, 243, 210);
         width: 500px;
-        border: 100px darkred;
-        padding: 15px;
-        margin: 15px; 
+        height: 575px;
+        border: 2px solid rgb(7, 87, 67);
+        padding: 1px;
+        margin: 89px; 
         font-family: mukta;
     }
     #personal {
-        float:right;
-        width:630px;
-        padding:45px;
-        font-size: 21px;
+        float:left;
+        background-color:rgb(230, 223, 223);
+        width:400px;
+        height: 30%;
+        border: 2px solid rgb(7, 87, 67);
+        padding: 0px;
+        margin: 50px; 
+        font-size: 18px;
         font-family: "indie flower";
-        background-color:rgb(163, 161, 161) 
     }
 .interests {
     text-align: center;
@@ -33,7 +46,7 @@ header {
     border: 100px rgb(70, 7, 70);
     padding: 20px;
     font-family: acme
-    background: rgb(225, 216, 245);
+    background-color: rgb(225, 216, 245);
 }
 img {
         display: block;
@@ -55,36 +68,19 @@ img {
         padding: 0px;
         margin: 0px;
   }
-#homeworks {
-    background-color: rgb(225, 243, 145);
-    width: 120px; 
-    padding: 0px;
-    margin: 0px;
-    float:right;
-}
-      .assignments {
-        background-color: rgb(225, 243, 145);
-        width: 1120px;
-        border: 5px; 
-        padding: 5px;
-        margin: 5px;
-        font-size: 12px;  
-        float:left;
-    }
 
 h1 {
-        color: black;
+        font-style: italic;
+        font-size: 36px;
+        color: darkred;
         font-family: "bree serif," verdana, arial, "times new roman";
 }
-/* I selected an easy to read grouping of fonts. */
+/* I selected dark red to contrast against light pink and keep a clean, simple look. */
 h2 {
         color: darkred;
         font-family: "permanent marker," verdana, arial, "times new roman";
  /* I selected a playful font for the goodbye message.*/
-h3 {
-        color: darkred;
-        font-family: cursive, arial, "times new roman";
-}
+
 p {
         color: navy;
         font-family: "old standard TT,""times new roman," verdana, arial;
