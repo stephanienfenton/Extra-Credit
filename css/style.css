@@ -10,6 +10,25 @@ header {
         font-family: "bad script," "dancing script", anton, arial, verdana, "times new roman";
         font-size: 25px;
     }
+.banner {
+    width: 100%
+    height: auto;
+}
+.nav {
+    overflow: hidden;
+    text-align: center;
+    background-color: rgb(240, 245, 245); 
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 20px;
+    display: block; 
+    padding: 40px;
+    margin: 20px;
+    height: 20px;
+    width: 1200px;
+}
+div{ 
+    display: block;
+}
 .newspaper{
  column-count: 3;
 }

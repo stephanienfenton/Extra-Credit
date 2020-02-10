@@ -1,39 +1,113 @@
 body {
-    background-color: lightpink;
-    font-family: arial, verdana, "times new roman";
-}
-/* The light pink contrasts well with the dark fonts*/
-
-    div {
-        background-color: rgb(89, 243, 210);
-        width: 620px;
-        border: 400px darkred;
-        padding: 25px;
-        margin: 10px; 
+        background-color: lightpink;
+        font-family: "bad script," dosis, arial, verdana, "times new roman";
+        font-size: 18px;
     }
-img {
+    /* The light pink contrasts well with the dark fonts*/
+    header { 
+            background:lightpink; 
+            color: darkred;
+            font-family: "bad script," "dancing script", anton, arial, verdana, "times new roman";
+            font-size: 25px;
+        }
+    .banner {
+        width: 100%
+        height: auto;
+    }
+    .nav {
+        overflow: hidden;
+        text-align: center;
+        background-color: rgb(240, 245, 245); 
+        font-family: Arial, Helvetica, sans-serif; 
+        font-size: 20px;
+        display: block; 
+        padding: 40px;
+        margin: 20px;
+        height: 20px;
+        width: 1200px;
+    }
+    div{ 
         display: block;
-        margin-left: auto;
-        margin-right: auto;
+    }
+    .newspaper{
+     column-count: 3;
+    }
+    
+        #first {
+            background-color: lightpink;
+            font-size: 22px;
+            font-family: 'bad+script', cursive;
+            display: block;
+        }
+        #background {
+            float:left;
+            background-color: rgb(89, 243, 210);
+            width: 500px;
+            height: 575px;
+            border: 2px solid rgb(7, 87, 67);
+            padding: 1px;
+            margin: 89px; 
+            font-family: mukta;
+        }
+        #personal {
+            float:left;
+            background-color:rgb(230, 223, 223);
+            width:400px;
+            height: 30%;
+            border: 2px solid rgb(7, 87, 67);
+            padding: 0px;
+            margin: 50px; 
+            font-size: 18px;
+            font-family: "indie flower";
+        }
+    .interests {
+        text-align: center;
+        width: 700px;
+        border: 100px rgb(70, 7, 70);
+        padding: 20px;
+        font-family: acme
+        background-color: rgb(225, 216, 245);
+    }
+    img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+          }
+    
+        #gradient {
+            height: 350px; width: 100px; float:right;
+        background-color: lightpink; /* For browsers that do not support gradients */
+        background-image: linear-gradient(to bottom right, rgb(45, 175, 158), rgb(119, 119, 113)); 
       }
-h1 {
-        color: black;
-        font-family: verdana, arial, "times new roman";
-}
-/* I selected an easy to read grouping of fonts. */
-h2 {
-        color: darkred;
-        font-family: verdana, arial, "times new roman";
- /* I selected a playful font for the goodbye message.*/
-h3 {
-        color: darkred;
-        font-family: cursive, arial, "times new roman";
-}
-p {
-        color: navy;
-        font-family: "times new roman," verdana, arial;
-}
-li {
-        color: navy;
-        font-family: "times new roman," verdana, arial;
-}
+      #dog {  
+            display: box;
+            float:left;
+            background-color: rgb(78, 17, 78);
+            width: 340;
+            border: 0px; 
+            padding: 0px;
+            margin: 0px;
+      }
+    
+    h1 {
+            font-style: italic;
+            font-size: 36px;
+            color: darkred;
+            font-family: "bree serif," verdana, arial, "times new roman";
+    }
+    /* I selected dark red to contrast against light pink and keep a clean, simple look. */
+    h2 {
+            color: darkred;
+            font-family: "permanent marker," verdana, arial, "times new roman";
+     /* I selected a playful font for the goodbye message.*/
+    
+    p {
+            color: navy;
+            font-family: "old standard TT,""times new roman," verdana, arial;
+    }
+    li {
+            color: navy;
+            font-family: "bad script," "times new roman," verdana, arial;
+    }
+    
+    
