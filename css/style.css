@@ -76,3 +76,30 @@ li {
         font-family: "bad script," "times new roman," verdana, arial;
 }
 
+@media only screen and (max-width: 1024px) {
+/* for mobile phones */
+[ID="topnav"] {
+    width: 100%;
+}
+[ID="personal"] {
+    width: 100%;
+}
+[ID="edu"] {
+    width: 100%;
+}
+[ID="interests"] {
+        width: 100%;
+}
+[ID="background"] {
+    width: 100%;
+}
+[ID="medical table"] {
+    width: 100%;
+}
+[class="nav"] {
+    width: 100%;
+}
+[class="banner"] {
+    width: 100%;
+}
+}
