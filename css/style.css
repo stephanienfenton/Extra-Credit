@@ -24,7 +24,7 @@ header {
     padding: 40px;
     margin: 20px;
     height: 20px;
-    width: 1200px;
+    width: 100%;
 }
 div{ 
     display: block;
