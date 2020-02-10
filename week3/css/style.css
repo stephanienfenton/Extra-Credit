@@ -1,113 +1,107 @@
 body {
-        background-color: lightpink;
-        font-family: "bad script," dosis, arial, verdana, "times new roman";
-        font-size: 18px;
+    background-color: rgb(38, 168, 243);
+    font-family: "bad script," dosis, arial, verdana, "times new roman";
+    font-size: 18px;
+}
+/* The blue colors contrast well with the cloud banner. banner made from personal image */
+header { 
+        background:lightpink; 
+        color: darkred;
+        font-family: "bad script," "dancing script", anton, arial, verdana, "times new roman";
+        font-size: 25px;
     }
-    /* The light pink contrasts well with the dark fonts*/
-    header { 
-            background:lightpink; 
-            color: darkred;
-            font-family: "bad script," "dancing script", anton, arial, verdana, "times new roman";
-            font-size: 25px;
-        }
-    .banner {
-        width: 100%
-        height: auto;
+.banner {
+    width: 100%
+    height: auto;
+}
+.nav {
+    overflow: hidden;
+    text-align: center;
+    background-color: rgb(121, 237, 245); 
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 20px;
+    display: block; 
+    padding: 20px;
+    margin: 20px;
+    height: 20px;
+    width: 100%;
+}
+
+    #background {
+        float:left;
+        background-color: rgb(89, 243, 210);
+        width: 50%;
+        height: 575px;
+        border: 2px solid rgb(7, 87, 67);
+        padding: 1px;
+        margin: 89px; 
+        font-family: mukta;
     }
-    .nav {
-        overflow: hidden;
-        text-align: center;
-        background-color: rgb(240, 245, 245); 
-        font-family: Arial, Helvetica, sans-serif; 
-        font-size: 20px;
-        display: block; 
-        padding: 40px;
-        margin: 20px;
-        height: 20px;
-        width: 100%;
+    #personal {
+        background-color:rgb(230, 223, 223);
+        width:50%;
+        padding-left: 10%;
+        padding-right: 10%;
     }
-    div{ 
+
+    #edu {
+        float: left;
+        width: 50%;
+        color: rgb(1, 1, 43);
+        background-color:rgb(230, 223, 223);
+    }
+#interests {
+padding-left: 10%;
+padding-right: 10%;
+}
+
+img {
         display: block;
-    }
-    .newspaper{
-     column-count: 3;
-    }
-    
-        #first {
-            background-color: lightpink;
-            font-size: 22px;
-            font-family: 'bad+script', cursive;
-            display: block;
-        }
-        #background {
-            float:left;
-            background-color: rgb(89, 243, 210);
-            width: 500px;
-            height: 575px;
-            border: 2px solid rgb(7, 87, 67);
-            padding: 1px;
-            margin: 89px; 
-            font-family: mukta;
-        }
-        #personal {
-            float:left;
-            background-color:rgb(230, 223, 223);
-            width:400px;
-            height: 30%;
-            border: 2px solid rgb(7, 87, 67);
-            padding: 0px;
-            margin: 50px; 
-            font-size: 18px;
-            font-family: "indie flower";
-        }
-    .interests {
-        text-align: center;
-        width: 700px;
-        border: 100px rgb(70, 7, 70);
-        padding: 20px;
-        font-family: acme
-        background-color: rgb(225, 216, 245);
-    }
-    img {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-          }
-    
-        #gradient {
-            height: 350px; width: 100px; float:right;
-        background-color: lightpink; /* For browsers that do not support gradients */
-        background-image: linear-gradient(to bottom right, rgb(45, 175, 158), rgb(119, 119, 113)); 
+        margin-left: auto;
+        margin-right: auto;
       }
-      #dog {  
-            display: box;
-            float:left;
-            background-color: rgb(78, 17, 78);
-            width: 340;
-            border: 0px; 
-            padding: 0px;
-            margin: 0px;
-      }
+
     
-    h1 {
-            font-style: italic;
-            font-size: 36px;
-            color: darkred;
-            font-family: "bree serif," verdana, arial, "times new roman";
-    }
-    /* I selected dark red to contrast against light pink and keep a clean, simple look. */
-    h2 {
-            color: darkred;
-            font-family: "permanent marker," verdana, arial, "times new roman";
-     /* I selected a playful font for the goodbye message.*/
-    
-    p {
-            color: navy;
-            font-family: "old standard TT,""times new roman," verdana, arial;
-    }
-    li {
-            color: navy;
-            font-family: "bad script," "times new roman," verdana, arial;
-    }
+h2 {
+        color: darkred;
+        font-family: "permanent marker," verdana, arial, "times new roman";
+ /* I selected a playful font for the goodbye message.*/
+
+p {
+        color: navy;
+        font-family: "old standard TT,""times new roman," verdana, arial;
+}
+li {
+        color: navy;
+        font-family: "bad script," "times new roman," verdana, arial;
+}
+
+@media only screen and (max-width: 1024px) {
+/* for mobile phones */
+[ID="topnav"] {
+    width: 100%;
+}
+[ID="personal"] {
+    width: 100%;
+}
+[ID="edu"] {
+    width: 100%;
+}
+[ID="interests"] {
+        width: 100%;
+}
+[ID="background"] {
+    width: 100%;
+}
+[ID="medical table"] {
+    width: 100%;
+}
+[class="nav"] {
+    width: 100%;
+}
+[class="banner"] {
+    width: 100%;
+}
+}
     
     
