@@ -1,107 +1,138 @@
 body {
+    width: 100%;
     background-color: rgb(38, 168, 243);
     font-family: "bad script," dosis, arial, verdana, "times new roman";
     font-size: 18px;
 }
-/* The blue colors contrast well with the cloud banner. banner made from personal image */
-header { 
-        background:lightpink; 
-        color: darkred;
-        font-family: "bad script," "dancing script", anton, arial, verdana, "times new roman";
-        font-size: 25px;
-    }
-.banner {
-    width: 100%
-    height: auto;
-}
-.nav {
-    overflow: hidden;
-    text-align: center;
-    background-color: rgb(121, 237, 245); 
-    font-family: Arial, Helvetica, sans-serif; 
-    font-size: 20px;
-    display: block; 
-    padding: 20px;
-    margin: 20px;
-    height: 20px;
-    width: 100%;
-}
-
-    #background {
-        float:left;
-        background-color: rgb(89, 243, 210);
-        width: 50%;
-        height: 575px;
-        border: 2px solid rgb(7, 87, 67);
-        padding: 1px;
-        margin: 89px; 
-        font-family: mukta;
-    }
-    #personal {
-        background-color:rgb(230, 223, 223);
-        width:50%;
-        padding-left: 10%;
-        padding-right: 10%;
-    }
-
-    #edu {
-        float: left;
-        width: 50%;
-        color: rgb(1, 1, 43);
-        background-color:rgb(230, 223, 223);
-    }
-#interests {
-padding-left: 10%;
-padding-right: 10%;
-}
-
-img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-      }
-
-    
+/* The light blue goes well with cloud banner*/
 h2 {
-        color: darkred;
-        font-family: "permanent marker," verdana, arial, "times new roman";
- /* I selected a playful font for the goodbye message.*/
+    text-align: center;
+    color: rgb(47, 7, 73);
+    font-family: "permanent marker," verdana, arial, "times new roman";
+}
+h1 {
+    text-align: center;
+    color: rgb(72, 6, 116);
+    font-family: "permanent marker," verdana, arial, "times new roman";
+}
 
 p {
-        color: navy;
-        font-family: "old standard TT,""times new roman," verdana, arial;
-}
-li {
-        color: navy;
-        font-family: "bad script," "times new roman," verdana, arial;
+    color:dark rgb(8, 36, 8);
+    font-family: "old standard TT,""times new roman," verdana, arial;
 }
 
-@media only screen and (max-width: 1024px) {
-/* for mobile phones */
-[ID="topnav"] {
+ul {
+    list-style-type: none;
+}
+
+li {
+    color: navy;
+    font-family: "bad script," "times new roman," verdana, arial;
+}
+/* responsive image tag */
+.responsive_image {
     width: 100%;
+    height: auto;
 }
-[ID="personal"] {
+/* responsive image tag */
+.responsive_image2 {
     width: 100%;
+    height: auto;
 }
-[ID="edu"] {
-    width: 100%;
+/* Homework assignments are centered */
+#nav {
+    text-align: center;
+    background-color: rgb(133, 145, 245); 
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
 }
-[ID="interests"] {
-        width: 100%;
+
+#nav a:link, a:visited {
+    background-color: #0a38b8;
+    color: rgb(241, 71, 190);
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  /* Nav. options change color when you hover over them for better clarity */
+#nav a:hover, a:active {
+    background-color: rgb(40, 12, 63);
 }
-[ID="background"] {
-    width: 100%;
+
+#container {
+    text-align: center;
+    border: 2px solid rgb(48, 49, 49);
+    padding: 2px;
 }
-[ID="medical table"] {
-    width: 100%;
+
+#education {
+    text-align: center;
+    background-color:rgb(230, 223, 223);
+    padding: 5px;
 }
-[class="nav"] {
-    width: 100%;
+
+#person {
+    background-color: rgb(89, 243, 210);
+    border: 3px solid rgb(7, 87, 67);
+    padding: 5px;
 }
-[class="banner"] {
-    width: 100%;
+/* footer aligned center */
+#footer {
+    text-align: center;
 }
-}
+/* tags for responsive image sizes using pixel proportions */
+@media only screen and (min-width: 758px) {
+    .responsive_image {
+        max-height: 300px;
+    }
+
+    .responsive_image2 {
+        max-width: 240px;
+    }
+
+    #container {
+        height: 80%;
+    }
+
+    #education {
+        float: left;
+        width: 59%;
+        height: 100%;
+        padding: 0px;
+    }
+
+    #education-background {
+        width: 45%;
+        float: left;
+    }
     
-    
+    #education-interest {
+        width: 45%;
+        float: left;
+    }
+
+    #person {
+        float: left;
+        width: 39%;
+        height: 100%;
+        padding: 0px;
+    }
+
+    #person-image {
+        max-width: 40%;
+        padding: 10px;
+        float: left;
+    }
+
+    #person-text {
+        padding-left: 10px;
+    }
+    #person-text p {
+        text-align: left;
+    }
+
+    #footer {
+        clear: both;
+    }
+}
