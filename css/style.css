@@ -10,6 +10,11 @@ h2 {
     color: rgb(47, 7, 73);
     font-family: "permanent marker," verdana, arial, "times new roman";
 }
+h1 {
+    text-align: center;
+    color: rgb(72, 6, 116);
+    font-family: "permanent marker," verdana, arial, "times new roman";
+}
 
 p {
     color:dark rgb(8, 36, 8);
@@ -52,13 +57,13 @@ li {
   }
   
 #nav a:hover, a:active {
-    background-color: rgb(52, 6, 90);
+    background-color: rgb(40, 12, 63);
 }
 
 #container {
     text-align: center;
-    border: 3px solid rgb(48, 49, 49);
-    padding: 5px;
+    border: 2px solid rgb(48, 49, 49);
+    padding: 2px;
 }
 
 #education {
@@ -79,7 +84,7 @@ li {
 
 @media only screen and (min-width: 758px) {
     .responsive_image {
-        max-height: 290px;
+        max-height: 300px;
     }
 
     .responsive_image2 {
