@@ -29,17 +29,17 @@ li {
     color: navy;
     font-family: "bad script," "times new roman," verdana, arial;
 }
-
+/* responsive image tag */
 .responsive_image {
     width: 100%;
     height: auto;
 }
-
+/* responsive image tag */
 .responsive_image2 {
     width: 100%;
     height: auto;
 }
-
+/* Homework assignments are centered */
 #nav {
     text-align: center;
     background-color: rgb(133, 145, 245); 
@@ -55,7 +55,7 @@ li {
     text-decoration: none;
     display: inline-block;
   }
-  
+  /* Nav. options change color when you hover over them for better clarity */
 #nav a:hover, a:active {
     background-color: rgb(40, 12, 63);
 }
@@ -77,11 +77,11 @@ li {
     border: 3px solid rgb(7, 87, 67);
     padding: 5px;
 }
-
+/* footer aligned center */
 #footer {
     text-align: center;
 }
-
+/* tags for responsive image sizes using pixel proportions */
 @media only screen and (min-width: 758px) {
     .responsive_image {
         max-height: 300px;
